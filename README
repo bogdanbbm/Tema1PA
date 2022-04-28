@@ -1,0 +1,34 @@
+322CB Butnariu Bogdan-Mihai
+
+Tema1
+
+Task1:
+    Problema este asemanatoare cu parcurgerea Z din laboratorul
+    numarul 1. Am folosit o structura denumita Pair pentru a gasi
+    fiecare element din matricea Walsh. Am folosi un while pentru
+    a parcurge fiecare cadran din matrice. In cazul in care ne 
+    regasim in cadranul 4, resultatul de schimba. Algoritmul are
+    o complexitate de O(N*M), N reprezentand dimensiunea matricei 
+    Walsh si M reprezentant numarul de perechi de indici.
+
+Task2:
+    Problema este asemanatoare cu o alta problema gasita aici:
+    https://www.geeksforgeeks.org/count-of-strings-to-be-concatenated-
+    with-a-character-having-frequency-greater-than-sum-of-others/
+    Algoritmul parcurge fiecare litera din alfabet si calculeaza pentru
+    fiecare cuvant dominanta literei. Dominanta literei in fiecare cuvant
+    este retinuta intr-un vector. Vectorul este sortat si se calculeaza
+    pentru fiecare litera numarul de siruri care pot fi concatenate.
+    Se afiseaza maximul posibil. Complexitatea programului este de 
+    O(NlogN).
+
+Task3:
+    Pentru a rezolva aceasta problema, a trebuit sa gasesc un algoritm
+    de transformare. Am gasit tot pe GeeksForGeeks acest algoritm:
+    https://www.geeksforgeeks.org/minimum-moves-to-make-m-and-n-equal-
+    by-repeated-addition-of-divisors-except-1-set-2-dynamic-programming/?ref=rp
+    Algoritmul foloseste programarea dinamica pentru a afla numarul de
+    operatii pentru a transforma 1 in nr. maxim din vectorul target. 
+    Dupa aceasta etapa in care am calculat vectorul de operatii am folosit
+    abordarea de tip "Problema Rucsacului" tot prin programare dinamica.
+    Algoritmul are complexitatea de O(N*K).
